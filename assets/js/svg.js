@@ -14,8 +14,5 @@ document.addEventListener('DOMContentLoaded', function() {
   svg2.draw(function() {
     console.log('Finished polyline!');
   });
-  var svg2 = new Walkway('#circle');
-  svg2.draw(function() {
-    console.log('Finished circle!');
-  });
+  
 });

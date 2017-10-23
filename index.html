@@ -10,11 +10,49 @@
 </head>
 
 
-
+<!-- navbar -->
 <body>
-	<!-- triangle -->
+<div class="demo-content" id="content">
+  <nav class="navigation">
+    <a id="open" href="#"><span class="ion ion-navicon"></span></a>
+  </nav>
+  <div class="inner-content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa labore, nesciunt tenetur. Iure quae quisquam a architecto facilis, expedita voluptas impedit repellat et eum hic, itaque, ut quas neque tempore?</p>
+    <figure>
+      <img src="http://placehold.it/450x300" alt="" />
+    </figure>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa labore, nesciunt tenetur. Iure quae quisquam a architecto facilis, expedita voluptas impedit repellat et eum hic, itaque, ut quas neque tempore?</p>
+  </div>
+</div>
+  <div id="offcanvas">
+  <a href="#" id="close" class="ion ion-close"></a>
+  <div id="about" class="widget">
+    <h3>About Me</h3>
+  </div>
+  <div id="images" class="widget image">
+    <h3>Images</h3>
+    <ul>
+      <li><img src="http://lorempixel.com/50/50/cats/1/" alt="" /></li>
+    </ul>
+  </div>
+  <div id="follow" class="widget follow">
+    <h3>Follow</h3>
+    <ul>
+      <li><a href="#" class="ion ion-social-facebook">Facebook</a></li>
+    </ul>
+  </div>
+</div>
+<span id="pointer" class="ion ion-arrow-left-c">Click Here</span>
+
+
+
+
+
+
+
+
+	<!-- triangle --><!-- walkway.js -->
 	<svg width="120" height="120" id="triangle" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-		<!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
 		<g>
 			<title>triangle</title>
 			<path stroke-width="2" stroke="#000000" fill="transparent" d="m6,106l50,-100l50,100l-100,0z" />
@@ -22,7 +60,7 @@
 	</svg>
 
 	
-
+<!-- polygone --><!-- walkway.js -->
 <div id="svgAttributes">
 	<svg width="128" height="128" viewBox="0 0 128 128">
 		<polygon points="64 68.66283564445347 8.574 99.99846120994249 63.42489087799106 67.66627399268701 64 3.9984612099424885 64.57510912200894 67.66627399268701 119.426 99.99846120994249 " fill="currentColor">
@@ -31,14 +69,14 @@
 </div>
 
 <!-- modal -->
-<div class="body"> 
-	<div class="wrap">  
-		<button id="open">Open the Modal</button> 
+<div class="bodym"> 
+	<div class="wrapm">  
+		<button id="openm">Open the Modal</button> 
 	</div>
 </div>
-<div class="overlay" style="display:none;"> 
-	<div class="wrap">   
-		<button id="close">Close the Modal</button>  
+<div class="overlaym" style="display:none;"> 
+	<div class="wrapm">   
+		<button id="closem">Close the Modal</button>  
 	</div>
 </div>
 
@@ -67,6 +105,7 @@
 
 </div><!-- /card flip -->
 
+<!-- particles.js --> 
 <div id="particles-js"></div>
 
 <div class="e"></div>
@@ -117,13 +156,19 @@
 
 </div><!-- /card flip -->
 
+
+
+
+
+
+
 <!-- jquery.js -->    
 <script src="assets/js/jquery-3.2.1.min.js"></script>
 <!-- velocity.js -->    
 <script src="assets/js/velocity.min.js"></script>
 <!-- particles.js --> 
 <script src="node_modules/particles.js/particles.js"></script>
-<!-- particles.js -->
+<!-- walkway.js -->
 <script src="node_modules/walkway.js/walkway.min.js"></script>
 <script src="assets/js/test.js"></script>
 <script src="assets/js/app.js"></script>
