@@ -37,10 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
     selector: '#hello',
     duration: 3000
   });
-<<<<<<< Updated upstream
-  
-});
-=======
 
   svg2.draw(function() {
     console.log('Finished hello!');
@@ -74,4 +70,4 @@ var morphing = anime({
 
 
 
->>>>>>> Stashed changes
+
